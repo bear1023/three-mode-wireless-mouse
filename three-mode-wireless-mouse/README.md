@@ -9,9 +9,9 @@
 ![EDA](https://img.shields.io/badge/EDA-%E7%AB%8B%E5%88%9BEDA-1765AD.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-![鼠标主板、接收器与电池](hardware/photos/overview.jpg)
+![PCB 3D 预览](docs/images/pcb-3d-render-front.png)
 
-*主板（红色）+ 2.4G 接收器（绿色小板）+ 800 mAh 电池 + 编码器滚轮总成*
+*主板与 2.4G 接收器的 PCB 3D 预览（立创 EDA 导出）*
 
 ---
 
@@ -76,9 +76,9 @@
 - 立创 EDA 工程（可直接打开继续改）：[`hardware/easyeda/`](hardware/easyeda)
 - PCB 3D 预览：[`docs/images/pcb-3d-render-front.png`](docs/images/pcb-3d-render-front.png)
 
-| PCB 正面 | PCB 背面 |
+| PCB 正面（3D） | PCB 背面（3D） |
 | --- | --- |
-| ![正面](hardware/photos/board-front.jpg) | ![背面](hardware/photos/board-back.jpg) |
+| ![正面](docs/images/pcb-3d-render-front.png) | ![背面](docs/images/pcb-3d-render-back.png) |
 
 ## 4. 固件设计
 
@@ -179,7 +179,7 @@ three-mode-wireless-mouse/
 ├── LICENSE
 ├── docs/
 │   ├── 01-design.md            # 参赛设计报告整理（系统组成、软硬件细节）
-│   └── images/                 # 系统框图、原理图、流程图、板照片
+│   └── images/                 # 系统框图、原理图、流程图、PCB 3D 预览
 ├── firmware/
 │   ├── README.md
 │   └── ch585-hid/              # CH585M 应用层（TMOS + HID + 三模切换）
@@ -188,8 +188,7 @@ three-mode-wireless-mouse/
 │       └── hidmouse.h
 └── hardware/
     ├── schematic/              # 原理图 PDF（鼠标主板 + 接收器）
-    ├── easyeda/                # 立创 EDA 专业版工程（.epro2）
-    └── photos/                 # PCB 实物照片
+    └── easyeda/                # 立创 EDA 专业版工程（.epro2）
 ```
 
 ## 7. 编译与烧录
@@ -232,7 +231,7 @@ three-mode-wireless-mouse/
 
 ## 10. 来源、致谢与许可证
 
-- **本仓库内容**：参赛作品的硬件原理图/PCB 工程、应用层固件节选、设计报告与实物照片，以 MIT 协议发布（见 [LICENSE](LICENSE)）。
+- **本仓库内容**：参赛作品的硬件原理图/PCB 工程、应用层固件节选与设计报告，以 MIT 协议发布（见 [LICENSE](LICENSE)）。
 - **第三方**：
   - 沁恒 CH585 的 BLE/HAL/USB 驱动与 `HidDev`/`Batt` 服务（WCH 官方 SDK，遵循其 Apache-2.0 许可）；
   - 原相 PAW3395 数据手册与寄存器定义（PixArt）；

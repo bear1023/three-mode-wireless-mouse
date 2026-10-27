@@ -4,7 +4,6 @@
 | --- | --- | --- |
 | [`schematic/`](schematic) | 原理图 PDF：`SCH_Schematic1_2025-07-09.pdf`（鼠标主板）、`SCH_Schematic2_2025-07-09.pdf`（接收器） | 任意 PDF 阅读器 |
 | [`easyeda/`](easyeda) | 立创 EDA 专业版工程 `ProPrj_CH585M三模无线鼠标_2026-10-25.epro2` | 立创 EDA 专业版（工程 → 打开） |
-| [`photos/`](photos) | PCB 实物照片（正/背面、整机） | — |
 
 ## 关键 BOM
 
